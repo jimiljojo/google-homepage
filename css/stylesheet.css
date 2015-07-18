@@ -32,15 +32,8 @@ nav li{
 	width: 32px;
 	vertical-align: bottom;
 }
-.form{
-	position: relative;
-}
 #micimage{
 	position: absolute;
-	width: 17px;
-	height: 23px;
-	bottom: 42px;
-	right: 300px;
 }
 
 /*--------- Content ---------*/
@@ -49,11 +42,14 @@ nav li{
 	text-align: center;
 }
 #input-text{
+	background: url('data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=') no-repeat;
+	background-size: 17px 23px;
+	background-position: right;
+	border: 1px solid rgba(0,0,0,0.1);
 	color: #444;
 	height: 28px;
 	width: 484px;
 	padding: 0px;
-	webkit-box-sizing: border-box;
 }
 
 #logo{
